@@ -275,9 +275,9 @@ h4{
   padding:40px;
 }
 .aboutMeParagraph{
-  width:700px;
   text-align:center;
   margin:auto;
+  max-width:100%;
 }
 
 /********************* Contact section **************/
