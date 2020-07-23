@@ -1,0 +1,308 @@
+
+/*************** project effects *******************/
+.img-responsive{
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+  position:absolute;
+  margin-bottom:5px;
+}
+.hovereffect  {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: -200px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.1s ease-out 0.5s;
+  transition: all 0.1s ease-out 0.5s;
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  top: 0px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 0.1s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  color: #000;
+  border: 1px solid #000;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  margin-bottom:100px;
+  text-align:center;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  box-shadow: 0 0 5px #000;
+  color: #000;
+  border: 1px solid #000;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color:#FEF0C3;
+  width: auto ;
+  height: auto ;
+  max-width:100%;
+
+
+}
+
+hr{
+  border:1px solid #FEF0C3;
+  width:300px;
+  margin:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+h4{
+  margin:none;
+}
+
+
+
+.background-img{
+  margin:auto;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    border:none;
+  }
+
+#title{
+  background-image: url("paper.gif");
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color:#FEF0C3; */
+}
+
+.profile{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  border:1px solid black;
+
+}
+
+.header1{
+  background-image: url("../images/desk.jpg");
+ height:100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  text-align:center;
+  padding-bottom: 15px;
+  /* background-color:#C6E3AD; */
+}
+
+
+.myName{
+  text-align: center;
+  padding-top:60px;
+  padding-bottom:20px;
+}
+
+.myDescription{
+  padding-top:20px;
+  padding-bottom:30px;
+  color:#3E3F3F;
+}
+
+.linkaboutme{
+  margin-bottom:30px;
+}
+
+.arrow{
+  margin:auto;
+  margin-top:100px;
+}
+/******** Navigation Bar *******/
+.navbar{
+  padding-bottom:0px;
+  background-color:#FEF0C3;
+}
+
+.nav-link{
+  font-size:18px;
+  margin-right: 20px;
+}
+
+
+
+/************ Project section ************/
+#projectSection{
+  background-color:#D2BEA3;
+  padding-bottom:50px;
+
+}
+
+.header2{
+  text-align:center;
+}
+.simonGame{
+  background-image: url("../images/memorygame.JPG");
+  color: white;
+  text-align:center;
+  /* margin-left:200px; */
+  border: 2px solid #ABD6DFFF;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.noteKeeper{
+  background-image: url("../images/notekeeper.JPG");
+  text-align:center;
+  /* margin-left:200px;  */
+  border: 2px solid #ABD6DFFF;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.toDoApp{
+  background-image: url("../images/notekeeper.JPG");
+  text-align:center;
+  /* margin-left:200px; */
+  border: 2px solid #ABD6DFFF;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+.keyboardDrum{
+  background-image: url("../images/drum.JPG");
+
+  text-align:center;
+  /* margin-left:200px; */
+  border: 2px solid #ABD6DFFF;
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+.keyboardDrumP{
+  padding-bottom:10px;
+}
+.paragraphs{
+  background-color:#988775;
+  color:black;
+
+}
+.gameheader{
+  padding-bottom:200px;
+}
+
+.toDoHeader{
+  padding:none;
+}
+/************************ About Me section ************/
+#aboutMe{
+  padding-top:250px;
+  background-color:#F9E4B7;
+  padding-bottom:250px;
+  text-align:center;
+}
+
+.aboutMeHeader{
+  color:grey;
+  padding:40px;
+}
+.aboutMeParagraph{
+  width:700px;
+  text-align:center;
+  margin:auto;
+}
+
+/********************* Contact section **************/
+#contact{
+  margin-top:250px;
+  margin-bottom:100px;
+  text-align:center;
+  background-color:#FEF0C3;
+}
+
+.email{
+  color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************** Mobile *********/

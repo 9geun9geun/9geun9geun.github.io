@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Profile</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/931610efbd.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    </div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent " aria-expanded="false" aria-label="Toggle navigation m-auto">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item m-auto">
+            <a class="nav-link" href="#aboutMe">About Me</a>
+          </li>
+          <li class="nav-item m-auto">
+            <a class="nav-link" href="#projectSection">Projects</a>
+          </li>
+          <li class="nav-item m-auto">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="header1">
+
+      <h1 class="myName">Keun Mo Koo</h1>
+      <hr>
+
+      <a href="https://www.github.com/9geun9geun"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+      &nbsp &nbsp &nbsp
+      <a href="mailto:rnrmsah.koo@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+      <hr>
+
+      <img class="profile" src="./images/profile.jpg">
+
+      <p class="myDescription">
+        Graduate Software Developer <i class="fas fa-user-graduate"></i>
+        <br>
+      </p>
+      <div class="linksaboutme">
+        <a href="#aboutMe">Read about me</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <a href="#projectSection">View Projects</a>
+      </div>
+      <div class="col arrow">
+        <a href="#projectSection"><i class="fas fa-chevron-circle-down fa-3x"></i></a>
+      </div>
+
+    </div>
+
+    </div>
+  </section>
+
+  <!-- projects -->
+
+  <section id="projectSection">
+    <div class="container">
+      <h1 class="header2"> Projects</h1>
+      <hr>
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hovereffect">
+            <img class="img-responsive " src="./images/memorygame.jpg" alt="">
+            <div class="overlay">
+              <h2>Sound Memory App</h2>
+              <a class="info" href="https://github.com/9geun9geun/sound-memory-game"><i class="fa fa-github fa-2x"></i>Github</a>&nbsp&nbsp&nbsp
+              <a class="info" href="https://9geun9geun.github.io/sound-memory-game/"><i class="fas fa-file-code fa-2x"></i>Code</a>
+              <p class="info"> Simple sound memory game made using Javascript and Jquery.Click on the link to play the game. It is created by using functions in Jquery. Gained more knowledge on Jquery and how useful it can be in different situations.
+                The code can be seen on the github link.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hovereffect">
+            <img class="img-responsive " src="./images/notekeeperimg.jpg" alt="">
+            <div class="overlay">
+              <h2>Notekeeper App</h2>
+              <a class="info" href="https://github.com/9geun9geun/To-Do-List"><i class="fa fa-github fa-2x"></i>Github</a>
+              <p class="info"> Made a NoteKeeper React App. A lot of concepts to add in and to fix. The notes disappear after being refreshed, because a database is not added to keep the notes.
+              Was a good experience studying react components.The code can be seen on the link. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hovereffect">
+            <img class="img-responsive " src="./images/todolist.jpg" alt="">
+            <div class="overlay">
+              <h2>To Do App</h2>
+              <a class="info" href="https://github.com/9geun9geun/To-Do-List"><i class="fa fa-github fa-2x"></i>Github</a>
+              <p class="info"> Built a simple to do list app using nodejs, EJS. A lot of improvements need to be made such as adding a database to store the added to do lists. Got a more solid knowledge on EJS templates and using the npm commands in
+                node.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hovereffect">
+            <img class="img-responsive " src="./images/drumkeyboard.jpg" alt="">
+            <div class="overlay">
+              <h2>Keyboard Drum App</h2>
+              <a class="info" href="https://github.com/9geun9geun/keyboard-drum"><i class="fa fa-github fa-2x"></i>Github</a>&nbsp&nbsp&nbsp&nbsp
+              <a class="info" href="https://9geun9geun.github.io/keyboard-drum/"><i class="fas fa-file-code fa-2x"></i>Code</a>
+              <p class="info"> Keyboard Drum app made using HTML, CSS and mainly Javascript. Pressing the keys allocated will make a particular drum sound. Mainly created using Javascript event listener function.</p>
+            </div>
+          </div>
+        </div>
+
+        
+
+  </section>
+
+
+  <!-- About Me -->
+
+  <section id="aboutMe">
+
+    <h6 class=aboutMeHeader>A few words about me</h6>
+    <h4 class="aboutMeParagraph">I am Keun Mo Koo, a graduate software developer. I am passionate in learning
+      and absorbing the knowledge through applying it to real world problems so I
+      can improve my skills. I have a strong mentality that when I set a goal, no matter how long
+      it might take, I eventually achieve that goal through continuous effort.
+      I enjoy participating and working as a team and is looking forward to the next group of people I will meet.</h4>
+
+    <h6 class="aboutMeHeader"> Click button below to download Resume</h6>
+    <button class="btn btn-warning"><a href="./resume/cv.docx" download> download Resume</a></button>
+
+
+
+
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <h5><u>Contact Information</u></h5>
+    <p>Email: <a href="mailto:rnrmsah.koo@gmail.com"> rnrmsah.koo@gmail.com </a> </p>
+    <p>Phone: 021 217 3506</p>
+
+
+
+    <footer> © 2020 Made by Keun Mo Koo</footer>
+    <div class="col arrow">
+      <a href="#title"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+    </div>
+  </section>
+
+</body>
+
+</html>
